@@ -17,9 +17,7 @@ import { HeroService } from './hero.service';
         FormsModule,
         HttpModule
     ],
-    providers: [
-        HeroService,
-    ],
+    providers: [HeroService],
     bootstrap: [AppComponent]
 })
 export class AppModule { }
